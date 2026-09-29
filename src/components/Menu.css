@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px, 24px;
+    background: #18212f;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover,
+.menu a:active{
+    background: rgba(255, 255, 255, 0.15);
+    color: cyan;
+}
+
+.menu a:active{
+    font-weight: 700;
+}
